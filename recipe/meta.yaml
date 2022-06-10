@@ -1,5 +1,5 @@
 {% set name = "afwizard" %}
-{% set version = "1.0.0b5" %}
+{% set version = "1.0.0b6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/afwizard-{{ version }}.tar.gz
-  sha256: 40f8450506a9f60ab027d11cb9db47c41f79d0b422a6e80974794478e5f20c4b
+  sha256: 24621815d67426d689cfcd44ccd7e81bc3fb7a631eab9cb31ba89627f26b1c8f
 
 build:
   entry_points:
