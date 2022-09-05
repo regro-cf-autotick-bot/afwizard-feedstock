@@ -1,5 +1,5 @@
 {% set name = "afwizard" %}
-{% set version = "1.0.0b7" %}
+{% set version = "1.0.0b9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/afwizard-{{ version }}.tar.gz
-  sha256: c1207b0120e9f935c6ca021bda5a6887146a74da0818c98905ed3706459faa38
+  sha256: 22b609fdc6a6bb7a9b4d2c208bc5ac037c8338c9f64b6d926a392f9eed0c2279
 
 build:
   entry_points:
@@ -31,7 +31,7 @@ requirements:
     - ipyfilechooser
     - ipyleaflet
     - ipython
-    - ipywidgets ==8.0.0rc0
+    - ipywidgets >=8
     - ipywidgets-jsonschema
     - jsonmerge
     - jsonschema <4
