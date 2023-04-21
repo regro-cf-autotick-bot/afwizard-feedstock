@@ -1,11 +1,11 @@
-About afwizard
-==============
+About afwizard-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/afwizard-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/afwizard/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/afwizard-feedstock/blob/main/LICENSE.txt)
 
 Summary: Adaptive Filtering Wizard
 
